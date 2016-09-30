@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="caef600a-9c63-4555-9a64-285cccc8044e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2164/ServiceStudentCrud.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceStudentCrud.disco" MetadataType="Disco" ID="ed47aa5c-9085-44ba-88f5-5d82380e9329" SourceId="1" SourceUrl="http://localhost:2164/ServiceStudentCrud.svc?disco" />
+    <MetadataFile FileName="ServiceStudentCrud.xsd" MetadataType="Schema" ID="181ccbbc-ef4d-4fcb-a950-334035132981" SourceId="1" SourceUrl="http://localhost:2164/ServiceStudentCrud.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceStudentCrud1.xsd" MetadataType="Schema" ID="94f80967-5524-4f79-aa15-439210c2a79a" SourceId="1" SourceUrl="http://localhost:2164/ServiceStudentCrud.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceStudentCrud2.xsd" MetadataType="Schema" ID="aac79c7e-1d16-4a8a-87df-1e617cbe1d56" SourceId="1" SourceUrl="http://localhost:2164/ServiceStudentCrud.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="4c1ac9fb-47b9-4e4f-b682-4024063741ef" SourceId="1" SourceUrl="http://localhost:2164/ServiceStudentCrud.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
