@@ -16,9 +16,6 @@ namespace SoapStudentCrudFuck
     {
         string connectionString =
                 @"Data Source=(localdb)\ProjectsV13;Initial Catalog=CloudStudent;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-
-        private static List<Student> _students = new List<Student>();
-
         /// <summary>
         /// Gets all students.
         /// </summary>
