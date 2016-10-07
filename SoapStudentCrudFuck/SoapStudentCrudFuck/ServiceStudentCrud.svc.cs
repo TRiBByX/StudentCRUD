@@ -15,9 +15,7 @@ namespace SoapStudentCrudFuck
     public class ServiceStudentCrud : IServiceStudentCRUD
     {
         string connectionString =
-                @"Data Source=students-server.database.windows.net;Initial Catalog=Students;Integrated Security=False;User ID=chri56a4;Password=K03g3bugt;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-
-        private static List<Student> _students = new List<Student>();
+                @"Data Source=(localdb)\ProjectsV13;Initial Catalog=CloudStudent;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         /// <summary>
         /// Gets all students.
