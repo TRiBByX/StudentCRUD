@@ -99,7 +99,7 @@
     <Compile Include="ServiceStudentCrud.svc.cs">
       <DependentUpon>ServiceStudentCrud.svc</DependentUpon>
     </Compile>
-    <Compile Include="IService1.cs" />
+    <Compile Include="IServiceStudentCRUD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
   </ItemGroup>
