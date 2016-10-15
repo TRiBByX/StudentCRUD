@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
-using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
@@ -31,33 +30,4 @@ namespace SoapStudentCrudFuck
 
 
     // Use a data contract as illustrated in the sample below to add student types to service operations.
-    [DataContract]
-    public class Student
-    {
-        private string _cpr;
-
-        [DataMember]
-        public string FirstName { get; set; }
-        [DataMember]
-        public string LastName { get; set; }
-        [DataMember]
-        public int Age { get; set; }
-        [DataMember]
-        public string Cpr
-        {
-            get { return _cpr; }
-            set { _cpr = value; }
-        }
-
-        public override bool Equals(object obj)
-        {
-            Student studentObj = (Student)obj;
-            if (obj.GetType() != typeof(Student)) return false;
-            else
-            {
-                if (Cpr.Equals(studentObj.Cpr)) return true;
-            }
-            return false;
-        }
-    }
 }

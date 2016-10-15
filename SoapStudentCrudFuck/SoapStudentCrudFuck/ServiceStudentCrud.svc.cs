@@ -14,8 +14,6 @@ namespace SoapStudentCrudFuck
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
-        string connectionString =
-                @"Data Source=(localdb)\ProjectsV13;Initial Catalog=CloudStudent;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         /// <summary>
         /// Gets all students.
